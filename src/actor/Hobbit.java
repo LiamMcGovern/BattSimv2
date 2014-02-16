@@ -22,7 +22,7 @@ public class Hobbit extends Actor{
 
     public void inputAllFields(){
         super.inputAllFields();
-        this.stealth = setStealth(InputGUI.getDouble("Please input a value of Stealth between %"));
+        setStealth(InputGUI.getDouble((String.format("Input %s's Stealth [This must be between %4.1f and %4.1f]", super.getName(), MAX_STEALTH, MIN_STEALTH)), MIN_STEALTH, MAX_STEALTH));
     }
 
     public double getStealth() {

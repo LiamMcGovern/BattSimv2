@@ -1,6 +1,7 @@
 package actor;// N.B.  Use of default package at this point in
                     // the program would indicate a lack of knowledge on the part of the student!
 import util.Input;
+import util.InputGUI;
 import util.SingletonRandom;
 
 import java.lang.String;
@@ -62,11 +63,11 @@ public abstract class Actor {
         //Utilizes the set methods to pass input to the coinciding variables.
         //Each value is checked by the corresponding set methods.
         System.out.println("You will now be asked to input the various fields of the chosen Actor");
-        setName(Input.instance.getString((String.format("Input %s's Name", this.name)))); //change the name
+        setName(InputGUI.getString((String.format("Input %s's Name", this.name)))); //change the name
         //Change the attributes
-        setHealth(Input.instance.getDouble((String.format("Input %s's Health [This must be between %4.1f and %4.1f]", this.name, MAX_HEALTH, MIN_HEALTH))));
-        setSpeed(Input.instance.getDouble((String.format("Input %s's Speed [This must be between %4.1f and %4.1f]", this.name, MAX_SPEED, MIN_SPEED))));
-        setStrength(Input.instance.getDouble((String.format("Input %s's Strength [This must be between %4.1f and %4.1f]", this.name, MAX_STRENGTH, MIN_STRENGTH))));
+        setHealth(InputGUI.getDouble(String.format("Input %s's Health [This must be between %4.1f and %4.1f]", this.name, MAX_HEALTH, MIN_HEALTH), MIN_HEALTH, MAX_HEALTH));
+        setSpeed(InputGUI.getDouble((String.format("Input %s's Speed [This must be between %4.1f and %4.1f]", this.name, MAX_SPEED, MIN_SPEED)), MIN_SPEED, MAX_SPEED));
+        setStrength(InputGUI.getDouble((String.format("Input %s's Strength [This must be between %4.1f and %4.1f]", this.name, MAX_STRENGTH, MIN_STRENGTH)), MIN_STRENGTH, MAX_STRENGTH));
         //This uses Prof. Woolard's Input parsing class to capture input.
     }
 
