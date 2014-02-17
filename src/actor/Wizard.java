@@ -4,11 +4,11 @@ import util.InputGUI;
 import util.SingletonRandom;
 
 
-/**
- * A reference to object of type <i>Wizard</i>, inherits all values from the super class Actor, and along with these
- * it contains values representing the Wizard's possession of both a Horse and Staff, each being boolean values.
+/**<p>
+ * A reference to object of type <b>Wizard</b>, inherits all values from the super class <i>Actor</i>, and along with
+ * these it contains values representing the Wizard's possession of both a Horse and Staff, each being boolean values.
  * Upon calling the constructor, presence of either asset is determined by a probability statement.
- * This statement is the result of a comparisson between a random number (0-1) and a predefined constant representing
+ * This statement is the result of a comparison between a random number (0-1) and a predefined constant representing
  * the probability.
  * <p/>
  *
@@ -20,15 +20,8 @@ import util.SingletonRandom;
 
 public class Wizard extends Actor {
 
-    /**
-     * hasHorse is a boolean variable for tracking of the Wizard's staff possession.
-     */
-    private boolean hasHorse;
-
-    /**
-     * hasStaff is a boolean variable for tracking of the Wizard's possesion of a horse.
-     */
-    private boolean hasStaff;
+    private boolean hasHorse;/** Represents <b>Wizards</b> possession of a horse. */
+    private boolean hasStaff;/** Represents <b>Wizards</b> possession of a staff. */
 
     /**
      * <b>Wizard</b>, inherits all attributes of <i>Actor</i> and two of it's own: <br> <u>hasHorse</u> a boolean value
@@ -42,7 +35,9 @@ public class Wizard extends Actor {
 
         //Given that these following variables are not needed beyond the scope of the constructor, it would be poor
         //programming practise to declare them as instance fields.
+        /** {@value} */
         final double CHANCEOFHORSE = 0.91;//Probability of starting with a horse
+        /** {@value} */
         final double CHANCEOFSTAFF = 0.13;//Probability of starting with a horse
 
         //The below operations generate a random number in order between 0.0 and 1.0, then compare that number to the
@@ -60,10 +55,9 @@ public class Wizard extends Actor {
      * @see actor.Wizard
      */
     @Override //Override the Superclass's  (Actor) toString Method.
-    //toString, used either directly or in the absence of a toString call for the object.
     public String toString() {
         return String.format(super.toString() + "\t Has Horse:%5b \t Has Staff:%5b \t", this.hasHorse, this.hasStaff);
-    }
+    }//toString, used either directly or in the absence of a toString call for the object.
 
     /**
      * Allows user input of all the attributes of parent <i>Actor</i> and the <b>Wizard</b> object.
@@ -72,7 +66,7 @@ public class Wizard extends Actor {
     public void inputAllFields() {
         super.inputAllFields();
         setHasHorse(InputGUI.getBooleanGUI(String.format("Is %s riding a horse?", super.getName())));
-        setHasStaff(InputGUI.getBooleanGUI(String.format("Does %s possess a staff?")));
+        setHasStaff(InputGUI.getBooleanGUI(String.format("Does %s possess a staff?", super.getName())));
     }
 
     /**

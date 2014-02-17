@@ -5,16 +5,25 @@ import util.SingletonRandom;
 
 
 /**
- * Created by Lenny on 2/16/14.
+ * <p>
+ * A reference to a <b>Hobbit</b> object contains all fields from the <i>Actor</i> class along with the new
+ * <b>stealth</b> field. Upon construction the <b>stealth</b> field is given a random value between the defined
+ * limits.</p>
+ * @author Liam McGovern [InputGUI and SingletonRandom are Rex Woolard's work]
+ *         Project:  BattleField Simulator
+ *         Version: Assignment 2, Object Oriented Programming.
+ *         Lab Proffessor: David Houtman
  */
 public class Hobbit extends Actor {
     private double stealth;
+    /** {@value} */
     private final double MAX_STEALTH = 50.0;
+    /** {@value} */
     private final double MIN_STEALTH = 0.0;
 
     /**
-     * <b>Hobbit</b> constructor calls the <i>Actor</i> constructor, then establishes a random value for the stealth
-     * parameter.
+     * <b>Hobbit</b> constructor calls the <i>Actor</i> constructor, then establishes a random value for the
+     * new <b>stealth</b> instance field.
      */
     public Hobbit() {
         super();
@@ -46,7 +55,6 @@ public class Hobbit extends Actor {
      * @return Returns the Hobbit's stealth value (double).
      * @see actor.Hobbit
      */
-
     public double getStealth() {
         return this.stealth;
     }

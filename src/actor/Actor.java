@@ -26,27 +26,29 @@ public abstract class Actor {
      * Defining the Maximum and Minimum values for each attribute
      * it was decided that 1-100 is valid since a percentage style representation is very versatile.
      */
-    public final static double MAX_HEALTH = 100.0;
-    public final static double MIN_HEALTH = 1.0;
+    /** {@value} */
+    public final static double MAX_HEALTH = 100.0;/** {@value} */
+    public final static double MIN_HEALTH = 1.0;/** {@value} */
 
-    public final static double MAX_SPEED = 100.0;
-    public final static double MIN_SPEED = 1.0;
+    public final static double MAX_SPEED = 100.0;/** {@value} */
+    public final static double MIN_SPEED = 1.0;/** {@value} */
 
-    public final static double MAX_STRENGTH = 100.0;
+    public final static double MAX_STRENGTH = 100.0;/** {@value} */
     public final static double MIN_STRENGTH = 1.0;
 
     /**
      * actorSerialNumber a class variable
      * used to assign each actor a unique number, static since it should not be unique to each actor.
      */
-    public static int actorSerialNumber = 0; //Starts with 0, increased every time it's used.
+
+    public static int actorSerialNumber = 0; /**Starts with 0, increased every time it's used.*/
 
     //Actor instance variables
-    private String name = "Actor"; //A string object initialized with the value of 'Actor'
-    private int actorId; //A int value that represents the value of actorSerialNumber upon instantiation.
-    private double strength; //Actor Speed....
-    private double speed; //Actor Strength....
-    private double health; //Actor Health...
+    private String name = "Actor"; /**A string object initialized with the value of 'Actor'*/
+    private int actorId; /**A int value represents the value of actorSerialNumber upon instantiation.*/
+    private double strength; /**Actor Speed....*/
+    private double speed; /**Actor Strength....*/
+    private double health; /**Actor Health...*/
 
     /**
      * <i>Actor</i> constructor establishes values for each attribute based on the generation of a random number.
@@ -67,6 +69,9 @@ public abstract class Actor {
         //-----------Attributes-------------
     }
 
+    /**
+     *  Allows user to input all attributes of <i>Actor</i> Object.
+     */
     public void inputAllFields() {
         //Utilizes the set methods to pass input to the coinciding variables.
         //Each value is checked by the corresponding set methods.

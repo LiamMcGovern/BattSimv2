@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8c740b-37ac-42f3-aa00-35410222c4bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Actor.java" afterPath="$PROJECT_DIR$/src/actor/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ActorTest.java" afterPath="$PROJECT_DIR$/src/test/ActorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Hobbit.java" afterPath="$PROJECT_DIR$/src/actor/Hobbit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Wizard.java" afterPath="$PROJECT_DIR$/src/actor/Wizard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -73,18 +75,20 @@
       <file leaf-file-name="Actor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="109" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="3689">
-              <folding />
+            <state line="17" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActorTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ActorTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+            <state line="37" column="0" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.6192053" vertical-offset="204" max-vertical-offset="1547">
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +97,10 @@
       <file leaf-file-name="Hobbit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="82" selection-start="683" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1309">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,26 +117,17 @@
       <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
+            <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wizard.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Wizard.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="71" selection-start="4279" selection-end="4279" vertical-scroll-proportion="2.6722407" vertical-offset="0" max-vertical-offset="1938">
-              <folding>
-                <element signature="e#3841#3842#0" expanded="true" />
-                <element signature="e#3872#3873#0" expanded="true" />
-                <element signature="e#4104#4105#0" expanded="true" />
-                <element signature="e#4135#4136#0" expanded="true" />
-                <element signature="e#4339#4340#0" expanded="true" />
-                <element signature="e#4379#4380#0" expanded="true" />
-                <element signature="e#4583#4584#0" expanded="true" />
-                <element signature="e#4623#4624#0" expanded="true" />
-              </folding>
+            <state line="11" column="19" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1700">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,10 +160,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/util/InputGUI.java" />
-        <option value="$PROJECT_DIR$/src/test/ActorTest.java" />
         <option value="$PROJECT_DIR$/src/actor/Actor.java" />
         <option value="$PROJECT_DIR$/src/actor/Hobbit.java" />
         <option value="$PROJECT_DIR$/src/actor/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/test/ActorTest.java" />
       </list>
     </option>
   </component>
@@ -336,6 +333,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -361,19 +371,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -483,7 +480,11 @@
       <created>1392666464972</created>
       <updated>1392666464972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Javadocccccc">
+      <created>1392667408560</created>
+      <updated>1392667408560</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +492,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33551913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -501,18 +502,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33547696" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33442622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3226152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -532,7 +533,8 @@
     <MESSAGE value="Starting to work on Testing&#10;" />
     <MESSAGE value="Closeeeeer" />
     <MESSAGE value="Added a ridiculous quantity of comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a ridiculous quantity of comments" />
+    <MESSAGE value="Javadocccccc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadocccccc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -544,8 +546,65 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+        <state line="52" column="109" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="3876">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1343">
+          <folding>
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="82" selection-start="683" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1360">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0" vertical-offset="1492" max-vertical-offset="2397">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,7 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1343">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -561,7 +620,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="4" selection-start="403" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1122">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,16 +643,7 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1292">
-          <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +657,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,7 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1122">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -621,7 +675,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1071">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,16 +698,7 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="21" selection-start="2357" selection-end="2363" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +712,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="238" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2737">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,7 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="1" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -681,7 +730,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="867">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,16 +753,7 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +767,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="238" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2737">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,7 +777,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1496">
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -741,7 +785,9 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="867">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -762,16 +808,7 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,14 +822,18 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="186" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="2754">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="52" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="867">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,29 +854,13 @@
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="63" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="969">
-          <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="935">
+        <state line="24" column="31" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
@@ -854,6 +879,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
@@ -861,41 +893,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="109" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="3689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="82" selection-start="683" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1309">
-          <folding />
+        <state line="17" column="42" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="71" selection-start="4279" selection-end="4279" vertical-scroll-proportion="2.6722407" vertical-offset="0" max-vertical-offset="1938">
+        <state line="11" column="19" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.6192053" vertical-offset="204" max-vertical-offset="1547">
           <folding>
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4583#4584#0" expanded="true" />
-            <element signature="e#4623#4624#0" expanded="true" />
+            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
           </folding>
         </state>
       </provider>
