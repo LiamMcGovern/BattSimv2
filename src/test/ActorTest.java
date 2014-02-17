@@ -18,6 +18,12 @@ public class ActorTest {
 
         Actor[] setOfActors;//Create an array of references to Actor objects
         setOfActors = new Actor[10]; //Define the array of Actors length to be 10.
+
+        Actor a1 = new Wizard();
+        setOfActors[0] = a1;
+        ((Hobbit)setOfActors[0]).setStealth();
+
+
         Actor[] as;
         as = new Actor[1];
         as[1] = new Hobbit();
