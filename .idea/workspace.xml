@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8c740b-37ac-42f3-aa00-35410222c4bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Actor.java" afterPath="$PROJECT_DIR$/src/actor/Actor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ActorTest.java" afterPath="$PROJECT_DIR$/src/test/ActorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Hobbit.java" afterPath="$PROJECT_DIR$/src/actor/Hobbit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Wizard.java" afterPath="$PROJECT_DIR$/src/actor/Wizard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BattSimv2.iws" />
@@ -86,9 +82,9 @@
       <file leaf-file-name="ActorTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.6192053" vertical-offset="204" max-vertical-offset="1547">
+            <state line="75" column="45" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.6518771" vertical-offset="893" max-vertical-offset="2295">
               <folding>
-                <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,10 +164,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="width" value="960" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -484,11 +478,15 @@
       <created>1392667408560</created>
       <updated>1392667408560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Nearing finish">
+      <created>1392672384785</created>
+      <updated>1392672384785</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -509,7 +507,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3226152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -534,7 +532,8 @@
     <MESSAGE value="Closeeeeer" />
     <MESSAGE value="Added a ridiculous quantity of comments" />
     <MESSAGE value="Javadocccccc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadocccccc" />
+    <MESSAGE value="Nearing finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nearing finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -557,7 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1343">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,7 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1343">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,7 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1122">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,7 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="1" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,7 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1496">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,9 +919,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.6192053" vertical-offset="204" max-vertical-offset="1547">
+        <state line="75" column="45" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.6518771" vertical-offset="893" max-vertical-offset="2295">
           <folding>
-            <marker date="1392671908947" expanded="true" signature="675:913" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

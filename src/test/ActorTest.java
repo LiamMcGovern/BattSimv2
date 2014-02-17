@@ -23,18 +23,59 @@ public class ActorTest {
         setOfActors = new Actor[amountOfActors]; //Define the array of Actors length to be 10.
 
         // Create a Wizard, and modify it's fields
-        Actor a1 = new Wizard(); //Construct a Wizard
-        System.out.println("Printing contents of unmodified actor \n"+a1); //Print unmodified Wizard.
-        a1.inputAllFields(); //Change Hobbit.
-        System.out.println("Printing contents of modified actor \n"+a1); //Print changed Wizard.
+        Actor w1 = new Wizard(); //Construct a Wizard
+        System.out.println("Printing contents of UNmodified actor \n"+w1); //Print UNmodified Wizard.
+        w1.inputAllFields(); //Change Hobbit.
+        System.out.println("Printing contents of modified actor \n"+w1); //Print changed Wizard.
+        //Place this actor into the setOfActors array
+        setOfActors[arrayIndex++] = w1;
         // END-Create a Wizard, and modify it's fields
 
         // Create a Hobbit, and modify it's fields
-        Actor a2 = new Hobbit();//Construct a Hobbit
-        System.out.println("Printing contents of unmodified actor \n"+a2);//Print unmodified Hobbit.
-        a2.inputAllFields();//Change Hobbit.
-        System.out.println("Printing contents of modified actor \n"+a2);//Print modified Hobbit.
+        Actor h1 = new Hobbit();//Construct a Hobbit
+        System.out.println("Printing contents of UNmodified actor \n"+h1);//Print UNmodified Hobbit.
+        h1.inputAllFields();//Change Hobbit.
+        System.out.println("Printing contents of modified actor \n"+h1);//Print modified Hobbit.
+        //Place this actor into the setOfActors array
+        setOfActors[arrayIndex++] = h1;
         // END-Create a Hobbit, and modify it's fields
+
+        // Create a second Wizard and Hobbit, and modify their fields, then display all actors
+        Actor w2 = new Wizard(); //Construct a Wizard
+        Actor h2 = new Hobbit();//Construct a Hobbit
+        System.out.println("Printing contents of UNmodified actor \n"+w2+"\n"+h2); //Print UNmodified Actors.
+        w2.inputAllFields(); //Change Hobbit.
+        h2.inputAllFields();//Change Wizard.
+        System.out.println("Printing contents of modified actor \n"+w2+"\n"+h2); //Print changed Actors.
+        //Place these actors into the setOfActors array
+        setOfActors[arrayIndex++] = w2;
+        setOfActors[arrayIndex++] = h2;
+        for (int i = 0; i < arrayIndex; i++) {
+            System.out.println(setOfActors[i]);
+        }
+        // END-Create a Wizard, and modify it's fields
+
+        //Test out the setStealth method
+        System.out.println(h1);
+        ((Hobbit)h1).setStealth(123);
+        System.out.println(h1);//Proof
+        ((Hobbit)h1).setStealth(-12);
+        System.out.println(h1);//Proof
+        //END-Test out the setStealth method
+        
+        //Test out modifications to Wizard boolean values, and the Wizard's set Methods
+        System.out.println(w1);
+        //We can efficiently test both set and get below, by combining them.
+        ((Wizard)w1).setHasHorse(!((Wizard)w1).getHasHorse()); //Set's the value to the opposite of it's current value.
+        System.out.println(w1); //Proof
+        ((Wizard)w1).setHasStaff(!((Wizard)w1).getHasStaff()); //Set's the value to the opposite of it's current value.
+        System.out.println(w1); //Proof
+        //END-Test out modifications to Wizard boolean values, and the Wizard's set Methods
+
+        /*TODO populate setactors with other actors, print them all..... satisfy the documents thing about
+         virtual methods and finish test plan  */
+
+
 
 
 
