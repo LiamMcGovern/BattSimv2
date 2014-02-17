@@ -3,6 +3,7 @@ package actor;
 import util.InputGUI;
 import util.SingletonRandom;
 
+
 /**
  * Created by Lenny on 2/16/14.
  */
@@ -15,9 +16,9 @@ public class Hobbit extends Actor{
         super();
         stealth = SingletonRandom.instance.getNormalDistribution(MIN_STEALTH, MAX_STEALTH, 3.0);
     }
-
+    @Override //Override the Superclass's  (Actor) toString Method.
     public String toString(){
-        return String.format(super.toString() + "Stealth:%4b \t", this.stealth );
+        return String.format(super.toString() + "\t Stealth:%4.1f \t", this.stealth );
     }
 
     public void inputAllFields(){
@@ -25,10 +26,24 @@ public class Hobbit extends Actor{
         setStealth(InputGUI.getDouble((String.format("Input %s's Stealth [This must be between %4.1f and %4.1f]", super.getName(), MAX_STEALTH, MIN_STEALTH)), MIN_STEALTH, MAX_STEALTH));
     }
 
+    /**
+     * Returns the value of the matching Object's stealth field.
+     * @return Returns the Hobbit's stealth value (double).
+     * @see actor.Hobbit
+     */
+    public void subClassMethod(){
+        System.out.println("Done");
+    }
     public double getStealth() {
-        return stealth;
+        return this.stealth;
     }
 
+    /**
+     * Checks the parameter value against predifined limits, and if within sets the Hobbit's stealth field to the
+     * proper value.
+     * @param stealth Value to be assigned to the Hobbit's stealth field.
+     * @see actor.Hobbit
+     */
     public void setStealth(double stealth) {
         if (stealth > MAX_STEALTH){
             System.out.printf("The entered Stealth is greater than specified limits," +

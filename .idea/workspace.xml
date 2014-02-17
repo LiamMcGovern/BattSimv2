@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be8c740b-37ac-42f3-aa00-35410222c4bf" name="Default" comment="">
+    <list default="true" id="be8c740b-37ac-42f3-aa00-35410222c4bf" name="Default" comment="Closeeeeer">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Actor.java" afterPath="$PROJECT_DIR$/src/actor/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ActorTest.java" afterPath="$PROJECT_DIR$/src/test/ActorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Hobbit.java" afterPath="$PROJECT_DIR$/src/actor/Hobbit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actor/Wizard.java" afterPath="$PROJECT_DIR$/src/actor/Wizard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BattSimv2.iws" />
@@ -60,6 +62,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -72,17 +75,18 @@
       <file leaf-file-name="Actor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="186" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="2754">
+            <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2601">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="31" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.5033445" vertical-offset="566" max-vertical-offset="1241">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4451#4452#0" expanded="true" />
-                <element signature="e#4483#4484#0" expanded="true" />
-                <element signature="e#4516#4517#0" expanded="true" />
-                <element signature="e#4631#4632#0" expanded="true" />
-                <element signature="e#4665#4666#0" expanded="true" />
-                <element signature="e#4783#4784#0" expanded="true" />
-                <element signature="e#4815#4816#0" expanded="true" />
-                <element signature="e#4927#4928#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +95,10 @@
       <file leaf-file-name="Hobbit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="52" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+            <state line="18" column="4" selection-start="403" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1105">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,7 +107,7 @@
       <file leaf-file-name="InputGUI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="4383" selection-end="4383" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2397">
+            <state line="123" column="5" selection-start="7723" selection-end="7723" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2397">
               <folding />
             </state>
           </provider>
@@ -119,20 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wizard.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Wizard.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="91" selection-start="677" selection-end="677" vertical-scroll-proportion="0.3005525" vertical-offset="0" max-vertical-offset="952">
-              <folding>
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-              </folding>
+            <state line="46" column="0" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1139">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,7 +134,7 @@
       <file leaf-file-name="SingletonRandom.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -154,6 +148,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lenny" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -161,6 +160,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/util/InputGUI.java" />
         <option value="$PROJECT_DIR$/src/actor/Actor.java" />
+        <option value="$PROJECT_DIR$/src/test/ActorTest.java" />
         <option value="$PROJECT_DIR$/src/actor/Hobbit.java" />
         <option value="$PROJECT_DIR$/src/actor/Wizard.java" />
       </list>
@@ -171,6 +171,61 @@
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -183,7 +238,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -198,8 +253,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,6 +302,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -270,6 +327,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,13 +338,16 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -294,7 +356,23 @@
       <recent name="C:\IDEs\Projects\Java\BattSimv2\src\actor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ActorTest">
+    <configuration default="false" name="ActorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ActorTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BattSimv2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -422,7 +500,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.ActorTest" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ActorTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -457,7 +542,11 @@
       <created>1392581942786</created>
       <updated>1392581942786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wizard and Hobbit almost complete">
+      <created>1392583641491</created>
+      <updated>1392583641491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,21 +560,21 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -502,39 +591,149 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <MESSAGE value="Wizard and Hobbit almost complete" />
+    <MESSAGE value="Starting to work on Testing&#10;" />
+    <MESSAGE value="Closeeeeer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closeeeeer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1122">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="5" selection-start="7723" selection-end="7723" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="21" selection-start="2357" selection-end="2363" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="186" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="2754">
+        <state line="6" column="0" selection-start="238" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4451#4452#0" expanded="true" />
-            <element signature="e#4483#4484#0" expanded="true" />
-            <element signature="e#4516#4517#0" expanded="true" />
-            <element signature="e#4631#4632#0" expanded="true" />
-            <element signature="e#4665#4666#0" expanded="true" />
-            <element signature="e#4783#4784#0" expanded="true" />
-            <element signature="e#4815#4816#0" expanded="true" />
-            <element signature="e#4927#4928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="867">
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="5" selection-start="7723" selection-end="7723" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="238" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1496">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="867">
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,29 +745,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="186" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+        <state line="24" column="52" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="867">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="4383" selection-end="4383" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="63" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="31" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/SingletonRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/InputGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="5" selection-start="7723" selection-end="7723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="36" selection-start="2009" selection-end="2009" vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Hobbit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="403" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1105">
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actor/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="91" selection-start="677" selection-end="677" vertical-scroll-proportion="0.3005525" vertical-offset="0" max-vertical-offset="952">
+        <state line="46" column="0" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="31" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.5033445" vertical-offset="566" max-vertical-offset="1241">
           <folding>
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

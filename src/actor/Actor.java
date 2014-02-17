@@ -1,28 +1,27 @@
 package actor;// N.B.  Use of default package at this point in
                     // the program would indicate a lack of knowledge on the part of the student!
-import util.Input;
 import util.InputGUI;
 import util.SingletonRandom;
 
 import java.lang.String;
 
-
+/**<p>
+ * A reference to object Actor, has the following attributes
+ * A name with it's coinciding serial number, incremented at each call to the constructor.
+ * Health, Speed, and Strength.
+ * Health and Speed are represented by a double value between 0 and 100, this is based on the fact that a percentage
+ * is a logical way of measuring Health, Speed, and Strength.
+ * <p/>
+ * @author Liam McGovern [InputGUI and SingletonRandom are Rex Woolard's work]
+ * Project:  BattleField Simulator
+ * Version: Assignment 2, Object Oriented Programming.
+ * Lab Proffessor: David Houtman
+ */
 public abstract class Actor {
-    /**
-     * A reference to object Actor, has the following attributes
-     * A name with it's coinciding serial number, incremented at each call to the constructor.
-     * Health, Speed, and Strength.
-     * Health and Speed are represented by a double value between 0 and 100, this is based on the fact that a percentage
-     * is a logical way of measuring Health, Speed, and Strength.
-     * <p/>
-     * @author Liam McGovern [Input and SingletonRandom aside]
-     * Project:  BattleField Simulator
-     * Version: Assignment 1, Object Oriented Programming.
-     * Lab Proffessor: David Houtman
-     */
 
-    //Defining the Maximum and Minimum values for each attribute
-    //It was decided that 1-100 is valid since a percentage style representation is very versatile.
+
+    /**Defining the Maximum and Minimum values for each attribute
+    it was decided that 1-100 is valid since a percentage style representation is very versatile. */
     public final static double MAX_HEALTH = 100.0;
     public final static double MIN_HEALTH = 1.0;
 
@@ -32,8 +31,8 @@ public abstract class Actor {
     public final static double MAX_STRENGTH = 100.0;
     public final static double MIN_STRENGTH = 1.0;
 
-    //actorSerialNumber a class variable
-    //used to assign each actor a unique number, static since it should not be unique to each actor.
+    /**actorSerialNumber a class variable
+    used to assign each actor a unique number, static since it should not be unique to each actor. */
     public static int actorSerialNumber = 0; //Starts with 0, increased every time it's used.
 
     //Actor instance variables
@@ -65,9 +64,12 @@ public abstract class Actor {
         System.out.println("You will now be asked to input the various fields of the chosen Actor");
         setName(InputGUI.getString((String.format("Input %s's Name", this.name)))); //change the name
         //Change the attributes
-        setHealth(InputGUI.getDouble(String.format("Input %s's Health [This must be between %4.1f and %4.1f]", this.name, MAX_HEALTH, MIN_HEALTH), MIN_HEALTH, MAX_HEALTH));
-        setSpeed(InputGUI.getDouble((String.format("Input %s's Speed [This must be between %4.1f and %4.1f]", this.name, MAX_SPEED, MIN_SPEED)), MIN_SPEED, MAX_SPEED));
-        setStrength(InputGUI.getDouble((String.format("Input %s's Strength [This must be between %4.1f and %4.1f]", this.name, MAX_STRENGTH, MIN_STRENGTH)), MIN_STRENGTH, MAX_STRENGTH));
+        setHealth(InputGUI.getDouble(String.format("Input %s's Health [This must be between %4.1f and %4.1f]",
+                this.name, MAX_HEALTH, MIN_HEALTH), MIN_HEALTH, MAX_HEALTH));
+        setSpeed(InputGUI.getDouble((String.format("Input %s's Speed [This must be between %4.1f and %4.1f]",
+                this.name, MAX_SPEED, MIN_SPEED)), MIN_SPEED, MAX_SPEED));
+        setStrength(InputGUI.getDouble((String.format("Input %s's Strength [This must be between %4.1f and %4.1f]",
+                this.name, MAX_STRENGTH, MIN_STRENGTH)), MIN_STRENGTH, MAX_STRENGTH));
         //This uses Prof. Woolard's Input parsing class to capture input.
     }
 
