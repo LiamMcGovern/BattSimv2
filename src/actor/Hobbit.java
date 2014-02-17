@@ -12,19 +12,32 @@ public class Hobbit extends Actor {
     private final double MAX_STEALTH = 50.0;
     private final double MIN_STEALTH = 0.0;
 
+    /**
+     * <b>Hobbit</b> constructor calls the <i>Actor</i> constructor, then establishes a random value for the stealth
+     * parameter.
+     */
     public Hobbit() {
         super();
         stealth = SingletonRandom.instance.getNormalDistribution(MIN_STEALTH, MAX_STEALTH, 3.0);
     }
 
+    /**
+     * Returns a formatted string contatining all Attributes of <i>Actor</i> and <b>Hobbit</b>
+     * @return Returns a <i>String</i> String representation of the <b>Hobbit</b>.
+     */
     @Override //Override the Superclass's  (Actor) toString Method.
     public String toString() {
         return String.format(super.toString() + "\t Stealth:%4.1f \t", this.stealth);
     }
 
+    /**
+     * Allows user to input all values of the <b>Hobbit</b> object and its parent <i>Actor</i>
+     */
+    @Override //Override the Superclass's  (Actor) inputAllFields Method.
     public void inputAllFields() {
         super.inputAllFields();
-        setStealth(InputGUI.getDouble((String.format("Input %s's Stealth [This must be between %4.1f and %4.1f]", super.getName(), MAX_STEALTH, MIN_STEALTH)), MIN_STEALTH, MAX_STEALTH));
+        setStealth(InputGUI.getDouble((String.format("Input %s's Stealth [This must be between %4.1f and %4.1f]",
+                super.getName(), MAX_STEALTH, MIN_STEALTH)), MIN_STEALTH, MAX_STEALTH));
     }
 
     /**
@@ -33,9 +46,6 @@ public class Hobbit extends Actor {
      * @return Returns the Hobbit's stealth value (double).
      * @see actor.Hobbit
      */
-    public void subClassMethod() {
-        System.out.println("Done");
-    }
 
     public double getStealth() {
         return this.stealth;
