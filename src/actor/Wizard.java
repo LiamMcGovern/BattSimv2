@@ -1,7 +1,6 @@
 package actor;
 
 import util.InputGUI;
-import util.SingletonRandom;
 
 
 /**
@@ -12,7 +11,7 @@ import util.SingletonRandom;
  * the probability.
  * <p/>
  *
- * @author Liam McGovern [Input and SingletonRandom Classes are used with permission from Rex Woolard]
+ * @author Liam McGovern
  * @version Assignment 2, Object Oriented Programming.
  *          Project:  BattleField Simulator
  *          Lab Professor: David Houtman
@@ -48,8 +47,8 @@ public class Wizard extends Actor {
         //corresponding asset.
 
         //[-----------------RANDOM NUMBER[0-1]------ | Less than  \/ chance? | chance value |
-        boolean hasHorse = (SingletonRandom.instance.getNormalDistribution(0.0, 1.0, 1) < CHANCEOFHORSE); //91% Chance.
-        boolean hasStaff = (SingletonRandom.instance.getNormalDistribution(0.0, 1.0, 1) < CHANCEOFSTAFF);  //13% Chance.
+        boolean hasHorse = (java.lang.Math.random() < CHANCEOFHORSE); //91% Chance.
+        boolean hasStaff = (java.lang.Math.random()  < CHANCEOFSTAFF);  //13% Chance.
     }
 
     /**
@@ -60,7 +59,7 @@ public class Wizard extends Actor {
      */
     @Override //Override the Superclass's  (Actor) toString Method.
     public String toString() {
-        return String.format(super.toString() + "\t Has Horse:%5b \t Has Staff:%5b \t", this.hasHorse, this.hasStaff);
+        return String.format(super.toString() + "\t Has Horse:%5b \t Has Staff:%5b \t", getHasHorse(), getHasStaff());
     }//toString, used either directly or in the absence of a toString call for the object.
 
     /**
@@ -79,7 +78,7 @@ public class Wizard extends Actor {
      * @return Returns a boolean value representing the <b>Wizards</b> possession of a Horse.
      */
     public boolean getHasHorse() {
-        return hasHorse;
+        return this.hasHorse;
     }
 
     /**
@@ -88,7 +87,7 @@ public class Wizard extends Actor {
      * @return Returns a boolean value representing the <b>Wizards</b> possession of a Staff.
      */
     public boolean getHasStaff() {
-        return hasStaff;
+        return this.hasStaff;
     }
 
     /**

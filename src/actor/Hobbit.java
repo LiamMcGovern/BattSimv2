@@ -42,7 +42,7 @@ public class Hobbit extends Actor {
      */
     @Override //Override the Superclass's  (Actor) toString Method.
     public String toString() {
-        return String.format(super.toString() + "\t Stealth:%4.1f \t", this.stealth);
+        return String.format(super.toString() + "\t Stealth:%4.1f \t", getStealth());
     }
 
     /**
