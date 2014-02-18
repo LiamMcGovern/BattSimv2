@@ -10,9 +10,9 @@ import com.sun.org.apache.xpath.internal.SourceTree;
  * that can be displayed to terminal with a call to either toString, or naturally without.
  *
  * @author Liam McGovern [Input and SingletonRandom Classes are used with permission from Rex Woolard]
+ * @version Assignment 2, Object Oriented Programming.
  *         Project:  BattleField Simulator
- *         Version: Assignment 2, Object Oriented Programming.
- *         Lab Proffessor: David Houtman
+ *         Lab Professor: David Houtman
  */
 public class ActorTest {
     public static void main(String[] args) {
@@ -30,6 +30,7 @@ public class ActorTest {
         //Place this actor into the setOfActors array
         setOfActors[arrayIndex++] = w1;
         // END-Create a Wizard, and modify it's fields
+
 
         // Create a Hobbit, and modify it's fields
         Actor h1 = new Hobbit();//Construct a Hobbit

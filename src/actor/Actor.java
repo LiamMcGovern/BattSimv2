@@ -10,14 +10,14 @@ import java.lang.String;
  * A reference to object Actor, has the following attributes
  * A name with it's coinciding serial number, incremented at each call to the constructor.
  * Health, Speed, and Strength.
- * Health and Speed are represented by a double value between 0 and 100, this is based on the fact that a percentage
- * is a logical way of measuring Health, Speed, and Strength.
+ * <b>Health</b>, <b>Speed</b> and <b>Strength</b> are represented by a double value between 0 and 100,
+ * this is based on the fact that a percentage is a logical way of measuring Health, Speed, and Strength.
  * <p/>
  *
- * @author Liam McGovern [InputGUI and SingletonRandom are Rex Woolard's work]
- *         Project:  BattleField Simulator
- *         Version: Assignment 2, Object Oriented Programming.
- *         Lab Proffessor: David Houtman
+ * @author Liam McGovern [Input and SingletonRandom Classes are used with permission from Rex Woolard]
+ * @version Assignment 2, Object Oriented Programming.
+ *          Project:  BattleField Simulator
+ *          Lab Professor: David Houtman
  */
 public abstract class Actor {
 
@@ -26,14 +26,31 @@ public abstract class Actor {
      * Defining the Maximum and Minimum values for each attribute
      * it was decided that 1-100 is valid since a percentage style representation is very versatile.
      */
-    /** {@value} */
-    public final static double MAX_HEALTH = 100.0;/** {@value} */
-    public final static double MIN_HEALTH = 1.0;/** {@value} */
+    /**
+     * {@value}
+     */
+    public final static double MAX_HEALTH = 100.0;
+    /**
+     * {@value}
+     */
+    public final static double MIN_HEALTH = 1.0;
+    /**
+     * {@value}
+     */
 
-    public final static double MAX_SPEED = 100.0;/** {@value} */
-    public final static double MIN_SPEED = 1.0;/** {@value} */
+    public final static double MAX_SPEED = 100.0;
+    /**
+     * {@value}
+     */
+    public final static double MIN_SPEED = 1.0;
+    /**
+     * {@value}
+     */
 
-    public final static double MAX_STRENGTH = 100.0;/** {@value} */
+    public final static double MAX_STRENGTH = 100.0;
+    /**
+     * {@value}
+     */
     public final static double MIN_STRENGTH = 1.0;
 
     /**
@@ -41,13 +58,28 @@ public abstract class Actor {
      * used to assign each actor a unique number, static since it should not be unique to each actor.
      */
 
-    public static int actorSerialNumber = 0; /**Starts with 0, increased every time it's used.*/
+    public static int actorSerialNumber = 0;
+    /**
+     * Starts with 0, increased every time it's used.
+     */
 
     //Actor instance variables
-    private String name = "Actor"; /**A string object initialized with the value of 'Actor'*/
-    private int actorId; /**A int value represents the value of actorSerialNumber upon instantiation.*/
-    private double strength; /**Actor Speed....*/
-    private double speed; /**Actor Strength....*/
+    private String name = "Actor";
+    /**
+     * A string object initialized with the value of 'Actor'
+     */
+    private int actorId;
+    /**
+     * A int value represents the value of actorSerialNumber upon instantiation.
+     */
+    private double strength;
+    /**
+     * Actor Speed....
+     */
+    private double speed;
+    /**
+     * Actor Strength....
+     */
     private double health; /**Actor Health...*/
 
     /**
@@ -70,7 +102,7 @@ public abstract class Actor {
     }
 
     /**
-     *  Allows user to input all attributes of <i>Actor</i> Object.
+     * Allows user to input all attributes of <i>Actor</i> Object.
      */
     public void inputAllFields() {
         //Utilizes the set methods to pass input to the coinciding variables.
@@ -103,6 +135,7 @@ public abstract class Actor {
 
     /**
      * Returns selected actors name
+     *
      * @return Returns actor's name
      */
     public String getName() {
@@ -111,6 +144,7 @@ public abstract class Actor {
 
     /**
      * Returns selected actors health
+     *
      * @return Returns actor's health
      */
     public double getHealth() { //getHealth returns the respective value of health to the object it's called by.
@@ -119,6 +153,7 @@ public abstract class Actor {
 
     /**
      * Returns selected actors strength
+     *
      * @return Returns actor's strength
      */
     public double getStrength() {//getStrength returns the respective value of health to the object it's called by.
@@ -127,6 +162,7 @@ public abstract class Actor {
 
     /**
      * Returns selected actors speed
+     *
      * @return Returns actor's speed
      */
     public double getSpeed() {//getSpeed returns the respective value of health to the object it's called by.
@@ -139,6 +175,7 @@ public abstract class Actor {
 
     /**
      * Sets Actor's name
+     *
      * @param name Value to set name to
      * @see actor.Actor
      */
@@ -155,6 +192,7 @@ public abstract class Actor {
     /**
      * Sets the value of the Actor's health.
      * If the parameter inputed is greater than the limit, it sets it to the nearest limit.
+     *
      * @param speed Value to set speed to
      * @see actor.Actor
      */
@@ -172,9 +210,11 @@ public abstract class Actor {
             this.speed = speed; //If user input is valid set Attribute to that value.
         }
     }
+
     /**
      * Sets the value of the Actor's health.
      * If the parameter inputed is greater than the limit, it sets it to the nearest limit.
+     *
      * @param health Value to set health to
      * @see actor.Actor
      */
@@ -192,9 +232,11 @@ public abstract class Actor {
             this.health = health;//If user input is valid set Attribute to that value.
         }
     }
+
     /**
      * Sets the value of the Actor's strength.
      * If the parameter inputed is greater than the limit, it sets it to the nearest limit.
+     *
      * @param strength Value to set strength to
      * @see actor.Actor
      */
@@ -215,12 +257,13 @@ public abstract class Actor {
     //-----Attribute set methods----------
 
     /**
-     *Returns true if the actors has at least a quarter of it's health remaining, otherwise it returns false.
+     * Returns true if the actors has at least a quarter of it's health remaining, otherwise it returns false.
+     *
      * @return Return's a boolean value that represents the Object's ability to move based on it's health.
      * @see actor.Actor
      */
     public boolean isHealthyEnoughToMove() {
-        final double healthToLowToMove = (MAX_HEALTH * 1/4 );
+        final double healthToLowToMove = (MAX_HEALTH * 1 / 4);
         return (health > healthToLowToMove) ? true : false;
     }
 

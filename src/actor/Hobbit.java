@@ -9,16 +9,21 @@ import util.SingletonRandom;
  * A reference to a <b>Hobbit</b> object contains all fields from the <i>Actor</i> class along with the new
  * <b>stealth</b> field. Upon construction the <b>stealth</b> field is given a random value between the defined
  * limits.</p>
- * @author Liam McGovern [InputGUI and SingletonRandom are Rex Woolard's work]
- *         Project:  BattleField Simulator
- *         Version: Assignment 2, Object Oriented Programming.
- *         Lab Proffessor: David Houtman
+ *
+ * @author Liam McGovern [Input and SingletonRandom Classes are used with permission from Rex Woolard]
+ * @version Assignment 2, Object Oriented Programming.
+ *          Project:  BattleField Simulator
+ *          Lab Professor: David Houtman
  */
 public class Hobbit extends Actor {
     private double stealth;
-    /** {@value} */
+    /**
+     * {@value}
+     */
     private final double MAX_STEALTH = 50.0;
-    /** {@value} */
+    /**
+     * {@value}
+     */
     private final double MIN_STEALTH = 0.0;
 
     /**
@@ -32,6 +37,7 @@ public class Hobbit extends Actor {
 
     /**
      * Returns a formatted string contatining all Attributes of <i>Actor</i> and <b>Hobbit</b>
+     *
      * @return Returns a <i>String</i> String representation of the <b>Hobbit</b>.
      */
     @Override //Override the Superclass's  (Actor) toString Method.

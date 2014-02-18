@@ -4,7 +4,7 @@ import util.InputGUI;
 import util.SingletonRandom;
 
 
-/**<p>
+/**
  * A reference to object of type <b>Wizard</b>, inherits all values from the super class <i>Actor</i>, and along with
  * these it contains values representing the Wizard's possession of both a Horse and Staff, each being boolean values.
  * Upon calling the constructor, presence of either asset is determined by a probability statement.
@@ -12,15 +12,18 @@ import util.SingletonRandom;
  * the probability.
  * <p/>
  *
- * @author Liam McGovern [InputGUI and SingletonRandom are Rex Woolard's work]
- *         Project:  BattleField Simulator
- *         Version: Assignment 2, Object Oriented Programming.
- *         Lab Proffessor: David Houtman
+ * @author Liam McGovern [Input and SingletonRandom Classes are used with permission from Rex Woolard]
+ * @version Assignment 2, Object Oriented Programming.
+ *          Project:  BattleField Simulator
+ *          Lab Professor: David Houtman
  */
 
 public class Wizard extends Actor {
 
-    private boolean hasHorse;/** Represents <b>Wizards</b> possession of a horse. */
+    private boolean hasHorse;
+    /**
+     * Represents <b>Wizards</b> possession of a horse.
+     */
     private boolean hasStaff;/** Represents <b>Wizards</b> possession of a staff. */
 
     /**
@@ -51,6 +54,7 @@ public class Wizard extends Actor {
 
     /**
      * Returns a formatted string of the <b>Wizards</b> attributes including it's possessions (Staff or horse).
+     *
      * @return Returns a formatted string version of the <b>Wizard</b> attributes.
      * @see actor.Wizard
      */
@@ -71,6 +75,7 @@ public class Wizard extends Actor {
 
     /**
      * Returns a boolean value representing the <b>Wizards</b> possession of a Horse.
+     *
      * @return Returns a boolean value representing the <b>Wizards</b> possession of a Horse.
      */
     public boolean getHasHorse() {
@@ -79,6 +84,7 @@ public class Wizard extends Actor {
 
     /**
      * Returns a boolean value representing the <b>Wizards</b> possession of a Staff.
+     *
      * @return Returns a boolean value representing the <b>Wizards</b> possession of a Staff.
      */
     public boolean getHasStaff() {
@@ -87,6 +93,7 @@ public class Wizard extends Actor {
 
     /**
      * Permits change to <b>Wizard</b> possession of a Horse.
+     *
      * @param hasHorse Boolean value representing the possession of a Horse.
      */
     public void setHasHorse(boolean hasHorse) {
@@ -95,6 +102,7 @@ public class Wizard extends Actor {
 
     /**
      * Permits change to <b>Wizard</b> possession of a Staff.
+     *
      * @param hasStaff Boolean value representing the possession of a Staff.
      */
     public void setHasStaff(boolean hasStaff) {
